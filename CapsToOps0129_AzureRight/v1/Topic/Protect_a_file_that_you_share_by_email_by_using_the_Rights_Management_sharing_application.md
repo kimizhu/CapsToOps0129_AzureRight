@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Protect a file that you share by email by using the Rights Management sharing application
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 4c1cd1d3-78dd-4f90-8b37-dcc9205a6736
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Protect a file that you share by email by using the Rights Management sharing application
 When you protect a file that you share by email, it creates a new version of the original file. The original file remains unprotected and the new version is protected and automatically attached to an email that you then send.

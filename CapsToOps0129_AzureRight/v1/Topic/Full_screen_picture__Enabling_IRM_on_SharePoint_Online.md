@@ -1,13 +1,12 @@
 ---
-description: na
-keywords: na
 title: Full screen picture: Enabling IRM on SharePoint Online
-search: na
-ms.date: 2015-11-01
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 2fc90989-9289-4431-9e6a-07740b7f6e5a
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: nofollow
 ---
 # Full screen picture: Enabling IRM on SharePoint Online

@@ -1,15 +1,13 @@
 ---
-description: na
-keywords: na
 title: Full screen picture: Activating Rights Management
-search: na
 ms.custom: 
   - test
-ms.date: 2015-11-01
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 98d53a12-3b19-4622-bb1e-75ef56df5438
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Full screen picture: Activating Rights Management
 ![](../Image/AzRMS_StoryboardActivate.png)

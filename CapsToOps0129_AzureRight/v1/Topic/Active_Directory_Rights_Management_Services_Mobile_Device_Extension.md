@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: Active Directory Rights Management Services Mobile Device Extension
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: a69ead9d-7dd3-4b38-9830-4728e9757341
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # Active Directory Rights Management Services Mobile Device Extension

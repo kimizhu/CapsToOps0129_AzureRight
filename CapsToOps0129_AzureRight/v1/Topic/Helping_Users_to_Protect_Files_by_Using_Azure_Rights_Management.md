@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Helping Users to Protect Files by Using Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 58f9a6ff-4121-4c8c-9865-1bb290604ad2
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Helping Users to Protect Files by Using Azure Rights Management
 After you have deployed and configured Azure Rights Management (Azure RMS) for your organization, provide help and guidance for users, administrators, and your help desk:

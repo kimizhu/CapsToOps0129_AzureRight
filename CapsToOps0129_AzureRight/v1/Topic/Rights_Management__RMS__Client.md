@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: Rights Management (RMS) Client
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: a6fa85be-f92a-4e00-9efc-9dbfd4dfbfcb
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # Rights Management (RMS) Client

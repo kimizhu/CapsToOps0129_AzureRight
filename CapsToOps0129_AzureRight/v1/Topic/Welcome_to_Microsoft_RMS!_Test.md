@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: Welcome to Microsoft RMS! Test
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: 23ca5ffe-a3c3-475a-a3c9-b77b898eef80
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # Welcome to Microsoft RMS! Test

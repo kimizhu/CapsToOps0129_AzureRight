@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: Revised Version 2: Rights Management sharing application user guide - working version, sandbox only
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: 5f341ddf-bdff-4a96-8aa0-9aeb4b81c63c
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # Revised Version 2: Rights Management sharing application user guide - working version, sandbox only

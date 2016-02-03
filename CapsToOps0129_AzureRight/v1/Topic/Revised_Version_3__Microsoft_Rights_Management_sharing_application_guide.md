@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: Revised Version 3: Microsoft Rights Management sharing application guide
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: 846f1895-1daf-4164-8cf6-e4a691384c41
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # Revised Version 3: Microsoft Rights Management sharing application guide

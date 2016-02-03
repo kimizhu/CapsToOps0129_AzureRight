@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: Microsoft Rights Management sharing application user guide - original publication
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: 350b6869-084d-4e8a-a4d3-df44a40fa13b
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # Microsoft Rights Management sharing application user guide - original publication

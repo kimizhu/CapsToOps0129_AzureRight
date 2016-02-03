@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Download and install the Rights Management sharing application
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 2bf09690-9dba-43b7-9e0a-0110915d4081
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Download and install the Rights Management sharing application
 You do not have to be a local administrator to install the RMS sharing application. However, if you are not and you use Office 2010, there are some limitations. For more information, see the [If you are not a local administrator and use Office 2010](#BKMK_SetupOffice2010) section in this topic.

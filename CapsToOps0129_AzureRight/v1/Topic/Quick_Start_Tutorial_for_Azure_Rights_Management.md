@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Quick Start Tutorial for Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 1db923bf-7d19-4fdd-a413-bfeb58af5e03
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Quick Start Tutorial for Azure Rights Management
 Use this tutorial to quickly try out Microsoft Azure Rights Management (also known as Azure RMS) for your organization with just 5 steps that should take you less than 15 minutes. You’ll activate the service, securely send a confidential document by email to somebody in another organization, and then be able to track when that document is opened. When the confidential document is emailed, it is encrypted while in transit and can be read only by the person it is sent to, using the permissions that are set by the sender.

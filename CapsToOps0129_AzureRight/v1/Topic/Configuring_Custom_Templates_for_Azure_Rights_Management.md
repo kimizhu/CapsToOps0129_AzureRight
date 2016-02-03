@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Configuring Custom Templates for Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 1775d8d0-9a59-42c8-914f-ce285b71ac1c
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Configuring Custom Templates for Azure Rights Management
 After you have activated Azure Rights Management (Azure RMS), users are automatically able to use two default templates that make it easy for them to apply policies to sensitive files that restrict access to authorized users in your organization. These two templates have the following rights policy restrictions:

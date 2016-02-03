@@ -1,13 +1,12 @@
 ---
-description: na
-keywords: na
 title: Full screen picture: Select RMS templates in applications, such as File Explorer and Word
-search: na
-ms.date: 2015-11-01
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 597a3402-fd5a-4bcf-b5e6-5c983dbde697
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Full screen picture: Select RMS templates in applications, such as File Explorer and Word
 ![](../Image/AzRMS_TemplatesPortal_ExplorerWord.png)

@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Getting Started with Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 5214667c-ec69-42ca-8bbf-8cb22da8c62e
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Getting Started with Azure Rights Management
 This section contains information for IT administrators and consultants, to help them learn more about Microsoft Azure Rights Management (also known as Azure RMS) and how it can help to protect information in your organization.

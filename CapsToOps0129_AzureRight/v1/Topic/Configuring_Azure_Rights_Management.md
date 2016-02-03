@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Configuring Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 206a0bfe-0912-4e0e-aa15-484b000b264c
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Configuring Azure Rights Management
 > [!NOTE]

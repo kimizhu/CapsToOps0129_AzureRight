@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Frequently Asked Questions for Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 71ce491f-41c1-4d15-9646-455a6eaa157d
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Frequently Asked Questions for Azure Rights Management
 Some frequently asked questions for Microsoft [!INCLUDE[aad_rightsmanagement_1](../Token/aad_rightsmanagement_1_md.md)], also known as Azure RMS:

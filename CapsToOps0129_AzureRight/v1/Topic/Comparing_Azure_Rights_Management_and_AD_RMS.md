@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Comparing Azure Rights Management and AD RMS
-search: na
-ms.date: 2016-01-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 8123bd62-1814-4d79-b306-e20c1a00e264
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Comparing Azure Rights Management and AD RMS
 If you know or have previously deployed Active Directory Rights Management Services (AD RMS), you might be wondering how [!INCLUDE[aad_rightsmanagement_1](../Token/aad_rightsmanagement_1_md.md)] (Azure RMS) compares in terms of functionality and requirements. Use the following table for a side-by-side comparison of the features and benefits of Azure RMS and AD RMS. If you have security-specific comparison questions, see the [Cryptographic controls for signing and encryption](../Topic/Comparing_Azure_Rights_Management_and_AD_RMS.md#BKMK_CryptographicControls) section in this topic.

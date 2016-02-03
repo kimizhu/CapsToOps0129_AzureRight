@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Logging and Analyzing Azure Rights Management Usage
-search: na
-ms.date: 2016-01-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: a735f3f7-6eb2-4901-9084-8c3cd3a9087e
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Logging and Analyzing Azure Rights Management Usage
 Use the information in this topic to help you understand how you can use usage logging with Azure Rights Management (Azure RMS). The Azure Rights Management service can log every request that it makes for your organization, which includes requests from users, actions performed by Rights Management administrators in your organization, and actions performed by Microsoft operators to support your Azure Rights Management deployment.
@@ -45,12 +44,12 @@ Use the following sections for more information about Azure Rights Management u
 -   [Windows PowerShell reference](../Topic/Logging_and_Analyzing_Azure_Rights_Management_Usage.md#BKMK_PowerShell)
 
 ## <a name="BKMK_EnableRMSLogging"></a>How to enable Azure Rights Management usage logging
-Starting January 2016, Azure Rights Management usage logging is enabled by default for all customers. This applies to customers who activated their Azure RMS service before January 2016 and to customers who activate the service after January 2016. 
+Starting February 2016, Azure Rights Management usage logging is enabled by default for all customers. This applies to customers who activated their Azure RMS service before February 2016 and to customers who activate the service after February 2016. 
 
 > [!NOTE]
 > There is no extra cost for the log storage or for the logging feature functionality.
 > 
-> If you used usage logging for Azure RMS prior to January 2016, you needed a subscription to Azure and sufficient storage on Azure, which is no longer the case.
+> If you used usage logging for Azure RMS prior to February 2016, you needed a subscription to Azure and sufficient storage on Azure, which is no longer the case.
 
 
 
@@ -91,7 +90,7 @@ By default, this cmdlet uses three threads to download the logs. If you have suf
 >
 > For example, you might run the following command to import all information into a .log file format: `logparser –i:w3c –o:csv "SELECT * INTO AllLogs.csv FROM *.log"`
 
-#### If you manually enabled Azure RMS usage logging before the logging change January 27, 2016
+#### If you manually enabled Azure RMS usage logging before the logging change February xx, 2016
 
 
 If you used usage logging prior to the logging change, you will have usage logs in your configured Azure storage account. Microsoft will not copy these logs from your storage account to the new Azure RMS managed storage account as part of this logging change. You are responsible for managing the lifecycle of the previously generated logs and can use the [Get-AadrmUsageLog](https://msdn.microsoft.com/library/dn629401.aspx) cmdlet to download your old logs. For example:
@@ -102,9 +101,9 @@ If you used usage logging prior to the logging change, you will have usage logs 
 
 Note that you do not have to download logs using the Get-AadrmUsageLog cmdlet if either of the following applies:
 
--  You activated Azure Rights Management before January 20, 2016 but did not enable the usage logging feature.
+-  You activated Azure Rights Management before February xx, 2016 but did not enable the usage logging feature.
 
-- You activated Azure Rights Management after January 21, 2016.
+- You activated Azure Rights Management after February xx+1, 2016.
 
 ## <a name="BKMK_Interpret"></a>How to interpret your Azure Rights Management usage logs
 Use the following information to help you interpret the Azure Rights Management usage logs.
@@ -193,7 +192,7 @@ There are many request types for Azure Rights Management but the following table
 |UpdateTemplate|A call is  made from the Azure classic portal to update an existing template.|
 
 ## <a name="BKMK_PowerShell"></a>Windows PowerShell reference
-Starting January 2016, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is [Get-AadrmUserLog](https://msdn.microsoft.com/library/azure/mt653941.aspx). 
+Starting February 2016, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is [Get-AadrmUserLog](https://msdn.microsoft.com/library/azure/mt653941.aspx). 
 
 Before this change, the following cmdlets were needed for Azure RMS usage logs, and are now deprecated:  
 

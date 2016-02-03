@@ -1,13 +1,12 @@
 ---
-description: na
-keywords: na
 title: Full screen picture: Alice shares protected attachment
-search: na
-ms.date: 2015-11-01
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: feeef78d-3c2e-432b-817d-d06f784be226
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: nofollow
 ---
 # Full screen picture: Alice shares protected attachment

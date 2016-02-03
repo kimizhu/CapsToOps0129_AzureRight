@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Azure Rights Management Deployment Roadmap
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 086600c2-c5d8-47ec-a4c0-c782e1797486
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Azure Rights Management Deployment Roadmap
 Use the following steps to prepare for, implement, and manage Azure Rights Management (Azure RMS) for your organization.

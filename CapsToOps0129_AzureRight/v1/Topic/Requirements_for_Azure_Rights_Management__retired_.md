@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: Requirements for Azure Rights Management (retired)
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: 94b9ca3b-bc54-4965-8d40-67e0af75e72a
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # Requirements for Azure Rights Management (retired)

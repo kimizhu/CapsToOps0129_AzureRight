@@ -1,12 +1,11 @@
 ---
-description: na
-keywords: na
 title: How to safely share a document by email
-search: na
-ms.date: na
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: e647ab1e-e119-4099-b54a-e307f8173d7e
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: noindex,nofollow
 ---
 # How to safely share a document by email

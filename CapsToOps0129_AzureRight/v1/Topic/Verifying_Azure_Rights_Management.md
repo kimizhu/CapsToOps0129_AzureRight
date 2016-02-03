@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Verifying Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 08664a01-81a5-4fa5-884c-7306ee55dba0
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Verifying Azure Rights Management
 After you have activated [!INCLUDE[aad_rightsmanagement_1](../Token/aad_rightsmanagement_1_md.md)] (Azure RMS) and performed any additional configuration steps that are required for your organization, you can verify that the service is working as expected by protecting a file or email message by using one  user account, and then attempting to open and use that protected content from another user account.

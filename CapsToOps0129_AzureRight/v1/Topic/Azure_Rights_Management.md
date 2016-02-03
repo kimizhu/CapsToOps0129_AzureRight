@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 965581c8-be3c-43b4-8145-5cefd29c7636
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Azure Rights Management
 <?xml version="1.0" encoding="utf-8"?>

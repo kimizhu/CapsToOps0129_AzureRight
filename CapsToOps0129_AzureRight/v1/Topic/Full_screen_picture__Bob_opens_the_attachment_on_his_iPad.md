@@ -1,15 +1,13 @@
 ---
-description: na
-keywords: na
 title: Full screen picture: Bob opens the attachment on his iPad
-search: na
 ms.custom: 
   - test
-ms.date: 2015-11-01
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 7dba5ff9-a61d-4a83-8adc-d6ffb0e85df6
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: nofollow
 ---
 # Full screen picture: Bob opens the attachment on his iPad

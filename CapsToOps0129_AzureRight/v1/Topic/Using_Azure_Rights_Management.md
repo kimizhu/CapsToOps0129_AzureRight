@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Using Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 18564e4a-9364-4ed2-8f17-89d24fc0d878
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Using Azure Rights Management
 > [!NOTE]

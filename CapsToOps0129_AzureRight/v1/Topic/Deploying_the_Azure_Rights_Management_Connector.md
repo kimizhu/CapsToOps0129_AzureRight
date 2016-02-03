@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Deploying the Azure Rights Management Connector
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 90e7e33f-9ecc-497b-89c5-09205ffc5066
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Deploying the Azure Rights Management Connector
 Use this information to learn about the Microsoft Rights Management (RMS) connector and how you can use it to provide information protection with existing on-premises deployments that use Microsoft Exchange Server, Microsoft SharePoint Server, or file servers that run Windows Server and use the File Classification Infrastructure (FCI) capability of File Server Resource Manager.

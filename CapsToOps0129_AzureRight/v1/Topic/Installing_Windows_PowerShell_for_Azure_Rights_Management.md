@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Installing Windows PowerShell for Azure Rights Management
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 0d665ed6-b1de-4d63-854a-bc57c1c49844
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Installing Windows PowerShell for Azure Rights Management
 Use the following information to help you install Windows PowerShell for Microsoft [!INCLUDE[aad_rightsmanagement_1](../Token/aad_rightsmanagement_1_md.md)] (Azure RMS).

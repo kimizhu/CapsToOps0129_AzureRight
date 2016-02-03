@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Rights Management sharing application: Version release history
-search: na
-ms.date: 2015-12-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 6751bd90-959f-4eba-91ed-6588ac983762
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Rights Management sharing application: Version release history
 The Rights Management team regularly updates the Rights Management sharing application for fixes and new functionality. Use the following information to see what’s new or changed in a release. The most current release is listed first.

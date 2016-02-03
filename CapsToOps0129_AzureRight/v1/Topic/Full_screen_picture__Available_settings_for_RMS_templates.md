@@ -1,13 +1,12 @@
 ---
-description: na
-keywords: na
 title: Full screen picture: Available settings for RMS templates
-search: na
-ms.date: 2015-11-01
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: f5df80e5-efc9-4c0f-91be-060225977356
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 robots: nofollow
 ---
 # Full screen picture: Available settings for RMS templates

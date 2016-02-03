@@ -1,14 +1,13 @@
 ---
-description: na
-keywords: na
 title: Requirements for Azure Rights Management
-search: na
-ms.date: 2016-01-01
+ms.custom: na
+ms.reviewer: na
 ms.service: rights-management
+ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: dc78321d-d759-4653-8818-80da74b6cdeb
-ms.author: carol.bailey@microsoft.com
+author: Cabailey
 ---
 # Requirements for Azure Rights Management
 To deploy Microsoft Azure Rights Management (Azure RMS) in your organization, make sure that you have the following prerequisites. You can then use the [Azure Rights Management Deployment Roadmap](../Topic/Azure_Rights_Management_Deployment_Roadmap.md) to deploy Rights Management for your organization.
@@ -54,6 +53,8 @@ To use Azure RMS, your organization must have at least one of the following subs
 Use the following sections for more information and sign up options.
 
 For a licensing comparison of the Azure RMS capabilities for the paid subscriptions, see [Comparison of Rights Management Services (RMS) Offerings](http://technet.microsoft.com/dn858608).
+
+Have additional questions about licensing for Azure RMS? Download the **Licensing FAQ for Azure Rights Management** from the [Azure Rights Management Purchasing](https://www.microsoft.com/en-us/server-cloud/products/azure-rights-management/Purchasing.aspx) page. 
 
 ### Office 365 subscription
 [Free 30-day trial: Enterprise E3](http://go.microsoft.com/fwlink/p/?LinkID=403802)
@@ -105,11 +106,11 @@ If you do not already have an Azure subscription for your organization, you can
 
 For more information, see the following resources in the Azure Active Directory documentation:
 
--   [What is an Azure AD directory?](http://msdn.microsoft.com/en-us/library/185da266-58a9-43e6-9c66-2c8f702545c6)
+-   [What is an Azure AD directory?](http://msdn.microsoft.com/library/185da266-58a9-43e6-9c66-2c8f702545c6)
 
--   [How Azure subscriptions are associated with Azure AD](http://msdn.microsoft.com/en-us/library/edf05c2e-944a-4da5-a330-dc9dc479f127)
+-   [How Azure subscriptions are associated with Azure AD](http://msdn.microsoft.com/library/edf05c2e-944a-4da5-a330-dc9dc479f127)
 
-If you want to integrate your Azure AD directory with your on-premises AD forests, see [Directory integration](http://msdn.microsoft.com/en-us/library/bf82bdff-2467-403b-8c1a-0e9eebcf31e8).
+If you want to integrate your Azure AD directory with your on-premises AD forests, see [Directory integration](http://msdn.microsoft.com/library/bf82bdff-2467-403b-8c1a-0e9eebcf31e8).
 
 > [!NOTE]
 > If you have mobile devices or Mac computers that authenticate on-premises by using AD FS or an equivalent authentication provider:
@@ -257,13 +258,7 @@ The following applications natively support Azure RMS, which means that RMS is 
     For more information about the Rights Management sharing application for mobile platforms, see the following resources:
 
     -   Download the relevant app by using the links on the [Microsoft Rights Management page](http://go.microsoft.com/fwlink/?LinkId=303970)
-
-    -   If you have Microsoft Intune, you can deploy and manage the app by using a policy managed app:
-
-        -   For iOS and Android devices that are enrolled by Intune: [Control apps using mobile application management policies with Microsoft Intune](https://technet.microsoft.com/library/dn878026.aspx)
-
-        -   For Android devices that are not enrolled by Intune: [Create and deploy mobile app management policies with Microsoft Intune](https://technet.microsoft.com/library/mt627829.aspx)
-
+ 
     -   [FAQ for Microsoft Rights Management Sharing Application for Mobile Platforms](http://technet.microsoft.com/dn451248)
 
 -   **Other applications that support the RMS APIs**:
@@ -293,6 +288,8 @@ For information about how to configure them, see [Configuring Applications for A
 The following on-premises server products are supported with Azure RMS when you use the Azure RMS connector, which acts as a communications interface (a relay) between the on-premises servers and Azure RMS. In addition, this configuration requires that you configure directory synchronization between your Active Directory forests and Azure Active Directory.
 
 -   **Exchange Server**:
+
+    -   Exchange Server 2016
 
     -   Exchange Server 2013
 
