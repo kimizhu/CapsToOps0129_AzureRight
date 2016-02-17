@@ -7,7 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: feeef78d-3c2e-432b-817d-d06f784be226
 author: Cabailey
-robots: nofollow
+robots: noindex,nofollow
 ---
 # Full screen picture: Alice shares protected attachment
 ![](../Image/AzRMS_StoryboardEmaill1.PNG)

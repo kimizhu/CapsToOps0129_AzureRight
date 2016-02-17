@@ -7,6 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: cf18c56b-c301-4640-8d9e-9e677e494091
 author: Cabailey
+robots: noindex,nofollow
 ---
 # Full screen picture: Installing and Configuring the RMS connector for FCI
 ![](../Image/AzRMS_FCI_Connector.png)

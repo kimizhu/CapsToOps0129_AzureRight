@@ -7,7 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: ad666594-68df-4289-835a-235b2af9bf4b
 author: Cabailey
-robots: nofollow
+robots: noindex,nofollow
 ---
 # Full screen picture: Confidential report accidentally sent to wrong person
 ![](../Image/AzRMS_FCI_Email.png)

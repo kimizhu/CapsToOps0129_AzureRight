@@ -7,7 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 596e4fec-124c-41b1-8efd-63d5179193fb
 author: Cabailey
-robots: nofollow
+robots: noindex,nofollow
 ---
 # Full screen picture: RMS templates in the Azure Management Portal
 ![](../Image/AzRMS_TemplatesPortal.png)

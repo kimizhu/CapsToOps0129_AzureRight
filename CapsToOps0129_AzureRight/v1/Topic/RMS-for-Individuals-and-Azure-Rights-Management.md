@@ -12,16 +12,16 @@ author: Cabailey
 # RMS for Individuals and Azure Rights Management
 RMS for individuals is a free self-service subscription for users in an organization who have been sent sensitive files that have been protected by Microsoft Azure Rights Management (Azure RMS), but they cannot be authenticated because their IT department does not manage an account for them in Azure. For example, the IT department doesn't have Office 365 or use Azure services.
 
-These users can sign up for a free work or school account to use with Azure RMS, and download and install the Rights Management sharing application. As a result, these users can now authenticate  to prove that they are the person that the protected files were sent to, and then read the protected files on computers or mobile devices.
+These users can sign up for a free work or school account to use with Azure RMS, and download and install the Rights Management sharing application. As a result, these users can now authenticate to prove that they are the person that the protected files were sent to, and then read the protected files on computers or mobile devices.
 
 Using the Rights Management sharing application on Windows computers, these users can also protect files in place or send protected files by email to people inside or outside their organization. If the recipients of the email that they send are in an organization that also doesn't manage user accounts in Azure, they too can sign up for an RMS for individuals account to read the protected email attachment.
 
 > [!IMPORTANT]
 > This free subscription ensures that authorized people can always read files that have been protected. Currently, you can also use this free subscription to protect documents and create new protected email messages, but the ability to author new protected content is intended for trial use only and might be removed in the future. For more information and any changes to using RMS for individuals to protect content, see the [Microsoft Rights Management Terms of Service](https://portal.aadrm.com/Legal/Service).
 
-For more information about how you can protect files by using the free Rights Management sharing application, see the [Rights Management sharing application guide for users](http://technet.microsoft.com/library/dn339006.aspx).
+For more information about how you can protect files by using the free Rights Management sharing application, see the [Rights Management sharing application guide for users](https://technet.microsoft.com/library/dn339006.aspx). For more technical information, see the accompanying [administrator guide](https://technet.microsoft.com/library/dn339003.aspx). 
 
-RMS for individuals is an example of a self-service signup that is supported by Azure Active Directory. For more information about how this works, see [What is Self-Service Signup for Azure?](https://azure.microsoft.com/documentation/articles/active-directory-self-service-signup/) in the Microsoft Azure documentation. Use the following sections for more information that is  specific to RMS for individuals:
+RMS for individuals is an example of a self-service sign up that is supported by Azure Active Directory. For more information about how this works, see [What is Self-Service Signup for Azure?](https://azure.microsoft.com/documentation/articles/active-directory-self-service-signup/) in the Microsoft Azure documentation. Use the following sections for more information that is  specific to RMS for individuals:
 
 -   [How users sign up for RMS for individuals](../Topic/RMS-for-Individuals-and-Azure-Rights-Management.md#BKMK_SignUp)
 
@@ -32,32 +32,30 @@ RMS for individuals is an example of a self-service signup that is supported by 
 -   [How to find out if your users have signed up for RMS for individuals](#BKMK_Detect)
 
 ## <a name="BKMK_SignUp"></a>How users sign up for RMS for individuals
-To sign up for this free account, you request it by visiting the [Microsoft Rights Management page](https://portal.aadrm.com/), and provide your work or school email address. The most typical way that you'll be directed to this sign-up page is if you received an email message with a protected attachment, which contains instructions how to sign-up. You'll receive an email in response from Microsoft, and can then complete the sign-up process by entering details to create your account. When you get an email confirmation from Microsoft, this final email message sends you to a page where you can download the sharing application for different devices, and a link to the user guide.
+To sign up for this free account, you request it by visiting the [Microsoft Azure Rights Management page](https://portal.office.com/signup?sku=RMS), and provide your work email address. The most typical way that you'll be directed to this sign-up page is if you received an email message with a protected attachment, which contains instructions how to sign-up. You'll receive an email in response from Microsoft, and can then complete the sign-up process by entering details to create your account. When this completes, you'll see a page where you can download the sharing application for different devices, a link to the user guide, and a link for a current list of applications that natively support Rights Management protection.
 
 #### To sign up for RMS for individuals
 
-1.  Using a Windows or Mac computer, go to the [Microsoft Rights Management page](https://portal.aadrm.com).
+1.  Using a Windows or Mac computer, go to the [Microsoft Azure Rights Management page](https://portal.office.com/signup?sku=RMS).
 
 2.  Type in the email address that you use for your organization, such as **janetm@contoso.com** or **p.dover@fabrikam.com**.
 
     > [!IMPORTANT]
     > Personal email accounts are not supported, so do not enter a Microsoft account (formerly known as a Microsoft Live ID account) or another personal account that you might use at home from your Internet provider.
 
-3.  Click **Get started**.
+3.  Click **Sign up**.
 
     Microsoft uses your email address to check whether your organization already has a [paid subscription that includes Azure RMS](https://technet.microsoft.com/library/dn655136.aspx). If that’s the case, you don’t need RMS for individuals so you’ll be signed in immediately and the self-service sign up for RMS for individuals is canceled. If a paid subscription for Azure RMS isn’t found, you'll continue to the next step.
 
-4.  Wait for a confirmation email message to be sent to the address that you supplied. It will be from Microsoft (DoNotReply@microsoft.com) and has the subject **Microsoft RMS**.
+4.  Wait for a confirmation email message to be sent to the address that you supplied. It will be from the Office 365 Team (support@email.microsoftonline.com) and has the subject **Finish signing up for Azure Rights Management**.
 
-5.  When you receive the email, click the link in the instructions to complete the sign up process.
+5.  When you receive the email, click **Yes, that's me** to verify your email address and complete the sign up process.
 
-6.  The link takes you a new **Microsoft Rights Management** page for you to supply details for your account. Type in your first name, your last name, enter and confirm a password of your choice, select your country (or the nearest country to yours if your country is not listed)  from the drop down, and then click **Create**.
+6.  You now see a **One last thing ...** page for you to supply details for your account. Type in your first name, your last name, enter and confirm a password of your choice, and then click **Start**.
 
-7.  Wait for another email message from Microsoft that now confirms that your account is ready to use.
+7.  When your account is created, you'll see a new Microsoft Rights Management page where you can download and install the sharing application, or click the [More information](https://technet.microsoft.com/library/dn339006.aspx) link to read the sharing application user guide.
 
-8.  When you receive the email, click the link to sign in and read the instructions to download and install the sharing application, or click the Help link to read the sharing application user guide.
-
-Now your account is created, you’re ready to start protecting files and read files that others have protected. When prompted to sign in to protect or read protected files, enter your email address and password that you used to create the account for RMS for the individuals.
+Now your account is created, you’re ready to start protecting files and read files that others have protected. If you're prompted to sign in to protect or read protected files, enter the same email address and password that you used to create the account for RMS for the individuals.
 
 ### <a name="BKMK_TechnicalOverview"></a>Technical overview
 RMS for individuals uses a self-service sign up process that is also used by other services that use Microsoft cloud-based technology to authenticate users.
@@ -87,7 +85,7 @@ Throughout this process, there is no charge to the organization and no work requ
 
     When you take this course of action, your organization benefits by being able to integrate Rights Management into its workflows, services, and data stores. In addition, you can now manage Rights Management because you have control over your organization’s tenant key for Azure Rights Management. You can now do the following:
 
-    -   Configure Exchange and SharePoint to support Azure Rights Management, even if these are running on-premises. Exchange and SharePoint are natively supported for the online services, and they are supported by a connector for the on-premises servers. For more information, see the following:
+    -   Configure Exchange and SharePoint to support Azure Rights Management, even if these are running on-premises. Exchange and SharePoint are natively supported for these online services, and they are supported by a connector for the on-premises servers. For more information, see the following:
 
         -   The Exchange Online and SharePoint Online sections from [Office 365: Configuration for clients and online services](../Topic/Configuring-Applications-for-Azure-Rights-Management.md#BKMK_O365) in the [Configuring Applications for Azure Rights Management](../Topic/Configuring-Applications-for-Azure-Rights-Management.md) topic
 
@@ -125,7 +123,7 @@ As an administrator, how do you know if your users have signed up for RMS for in
 
 -   Use a system management solution, such as System Center Configuration Manager, to inventory software installed and software in use. The Rights Management sharing application runs by using the **ipviewer.exe** program and you can [download and install the application](http://go.microsoft.com/fwlink/?LinkId=303970) for free to identify other characteristics about this application that you then use for software inventory.
 
--   Be on the lookout for file name extensions that are created by the Rights Management sharing application. The .pfile and .ppdf file name extensions are the most obvious examples, but there are other files that change their file name extension when they are natively protected by Rights Management. For more information, see the [Supported file types and file name extensions](http://technet.microsoft.com/library/dn339003.aspx) section in the [Rights Management sharing application administrator guide](http://technet.microsoft.com/library/dn339003.aspx).
+-   Be on the lookout for file name extensions that are created by the Rights Management sharing application. The .pfile and .ppdf file name extensions are the most obvious examples, but there are other files that change their file name extension when they are natively protected by Rights Management. For more information, see the [Supported file types and file name extensions](https://technet.microsoft.com/library/dn339003.aspx#BKMK_SupportFileTypes) section in the [Rights Management sharing application administrator guide](https://technet.microsoft.com/library/dn339003.aspx).
 
 ## See Also
 [Getting Started with Azure Rights Management](../Topic/Getting-Started-with-Azure-Rights-Management.md)

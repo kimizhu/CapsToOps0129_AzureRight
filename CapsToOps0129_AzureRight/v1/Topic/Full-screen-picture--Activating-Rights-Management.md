@@ -8,6 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 98d53a12-3b19-4622-bb1e-75ef56df5438
 author: Cabailey
+robots: noindex,nofollow
 ---
 # Full screen picture: Activating Rights Management
 ![](../Image/AzRMS_StoryboardActivate.png)

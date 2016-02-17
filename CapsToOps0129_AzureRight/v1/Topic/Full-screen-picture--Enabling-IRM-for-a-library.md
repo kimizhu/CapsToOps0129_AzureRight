@@ -7,6 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: a18f2e99-5ac4-4103-a88c-527846374091
 author: Cabailey
+robots: noindex,nofollow
 ---
 # Full screen picture: Enabling IRM for a library
 ![](../Image/AzRMS_StoryboardSPO_2.PNG)

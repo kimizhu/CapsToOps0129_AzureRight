@@ -7,7 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 59e3b68e-4bed-4962-bb1e-e82d82f8000a
 author: Cabailey
-robots: nofollow
+robots: noindex,nofollow
 ---
 # Full screen picture: An external email protected by DLP and Azure RMS
 ![](../Image/AzRMS_DLPProtectedEmail.png)

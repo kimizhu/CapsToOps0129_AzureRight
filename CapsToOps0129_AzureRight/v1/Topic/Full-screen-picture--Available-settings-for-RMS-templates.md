@@ -7,7 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: f5df80e5-efc9-4c0f-91be-060225977356
 author: Cabailey
-robots: nofollow
+robots: noindex,nofollow
 ---
 # Full screen picture: Available settings for RMS templates
 ![](../Image/AzRMS_TemplatesSettings.png)

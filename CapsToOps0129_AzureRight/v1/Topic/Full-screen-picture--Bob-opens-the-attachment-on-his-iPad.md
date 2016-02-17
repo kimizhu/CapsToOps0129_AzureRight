@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 7dba5ff9-a61d-4a83-8adc-d6ffb0e85df6
 author: Cabailey
-robots: nofollow
+robots: noindex,nofollow
 ---
 # Full screen picture: Bob opens the attachment on his iPad
 ![](../Image/AzRMS_StoryboardEmaill3.PNG)

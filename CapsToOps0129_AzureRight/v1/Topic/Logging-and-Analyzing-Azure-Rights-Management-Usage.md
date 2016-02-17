@@ -90,7 +90,7 @@ By default, this cmdlet uses three threads to download the logs. If you have suf
 >
 > For example, you might run the following command to import all information into a .log file format: `logparser –i:w3c –o:csv "SELECT * INTO AllLogs.csv FROM *.log"`
 
-#### If you manually enabled Azure RMS usage logging before the logging change February xx, 2016
+#### If you manually enabled Azure RMS usage logging before the logging change February 16, 2016
 
 
 If you used usage logging prior to the logging change, you will have usage logs in your configured Azure storage account. Microsoft will not copy these logs from your storage account to the new Azure RMS managed storage account as part of this logging change. You are responsible for managing the lifecycle of the previously generated logs and can use the [Get-AadrmUsageLog](https://msdn.microsoft.com/library/dn629401.aspx) cmdlet to download your old logs. For example:
@@ -101,9 +101,9 @@ If you used usage logging prior to the logging change, you will have usage logs 
 
 Note that you do not have to download logs using the Get-AadrmUsageLog cmdlet if either of the following applies:
 
--  You activated Azure Rights Management before February xx, 2016 but did not enable the usage logging feature.
+-  You activated Azure Rights Management on or before February 16, 2016 but did not enable the usage logging feature.
 
-- You activated Azure Rights Management after February xx+1, 2016.
+- You activated Azure Rights Management after February 16, 2016.
 
 ## <a name="BKMK_Interpret"></a>How to interpret your Azure Rights Management usage logs
 Use the following information to help you interpret the Azure Rights Management usage logs.

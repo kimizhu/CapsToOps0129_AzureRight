@@ -7,7 +7,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: e748fd78-8bba-4168-96cf-f96def078283
 author: Cabailey
-robots: nofollow
+robots: noindex,nofollow
 ---
 # Full screen picture: Bob sees the email on his iPad
 ![](../Image/AzRMS_StoryboardEmaill2.PNG)

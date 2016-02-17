@@ -19,7 +19,7 @@ If you want to learn more about Azure Rights Management before you activate the 
 > 
 > For more information, see the [Cloud subscriptions that support Azure RMS](../Topic/Requirements-for-Azure-Rights-Management.md#BKMK_SupportedSubscriptions) section in the [Requirements for Azure Rights Management](../Topic/Requirements-for-Azure-Rights-Management.md) topic.
 
-After you have activated Azure RMS, all users in your organization can apply information protection to their files, and all users can open (consume) files that have been protected by Azure RMS. However, if you prefer, you can restrict who can apply information protection, by using onboarding controls for a phased deployment. For more information, see the [Configuring onboarding controls for a phased deployment](../Topic/Activating-Azure-Rights-Management.md#BKMK_OnboardingControls) section in this topic.
+After you have activated Azure RMS, by default, all users in your organization can apply information protection to their files, and all users can open (consume) files that have been protected by Azure RMS. However, if you prefer, you can restrict who can apply information protection, by using onboarding controls for a phased deployment. For more information, see the [Configuring onboarding controls for a phased deployment](../Topic/Activating-Azure-Rights-Management.md#BKMK_OnboardingControls) section in this topic.
 
 ## Activating Rights Management
 Use one of the following procedures to activate [!INCLUDE[aad_rightsmanagement_2](../Token/aad_rightsmanagement_2_md.md)].
@@ -55,6 +55,9 @@ You should now see **Rights management is activated** and the option to deactiva
 
 #### To activate Rights Management from the Azure classic portal
 
+
+Watch a video: [How to activate Azure RMS](https://channel9.msdn.com/Series/Pit-Stop-Enterprise-Mobility-Suite/Activate-Azure-RMS)
+
 1.  After you have signed up for your Azure account, [sign in to the Azure classic portal](http://go.microsoft.com/fwlink/p/?LinkID=275081).
 
 2.  In the left pane, click **ACTIVE DIRECTORY**.
@@ -81,7 +84,7 @@ In addition to the **Active** status, which indicates that the Rights Management
 |**Unauthorized**|You do not have permissions to view the status of the [!INCLUDE[aad_rightsmanagement_2](../Token/aad_rightsmanagement_2_md.md)] service. For example, your account is locked out or you are not the global administrator for the selected tenant.|
 
 ## <a name="BKMK_OnboardingControls"></a>Configuring onboarding controls for a phased deployment
-If you don’t want all users to be able to protect files immediately by using Azure RMS, you can configure user onboarding controls by using the [Set-AadrmOnboardingControlPolicy](http://msdn.microsoft.com/library/azure/dn857521.aspx) Windows PowerShell command. You can run this command before or after you activate Azure RMS.
+After you have activated Azure RMS, by default, all users in your organization can apply information protection to their files. If you don’t want all users to be able to protect files immediately by using Azure RMS, you can configure user onboarding controls by using the [Set-AadrmOnboardingControlPolicy](http://msdn.microsoft.com/library/azure/dn857521.aspx) Windows PowerShell command. You can run this command before or after you activate Azure RMS. User onboarding controls are not enabled by default.
 
 > [!IMPORTANT]
 > To use this command, you must have at least version **2.1.0.0** of the [Azure RMS Windows PowerShell module](http://go.microsoft.com/fwlink/?LinkId=257721).
@@ -100,7 +103,7 @@ Or, if you want to ensure that only users who are correctly licensed to use Azur
 ```
 Set-AadrmOnboardingControlPolicy -UseRmsUserLicense $true
 ```
-When you use these onboarding controls, all users in the organization can always consume protected content that has been protected by your subset of users, but they won’t be able to apply information protection themselves from client applications. For example, they won’t see in their Office clients the default templates that are automatically published when Azure RMS is activated, or custom templates that you might configure.  Server-side applications, such as Exchange, can implement their own per-user controls for RMS-integration to achieve the same result.
+When you use these onboarding controls, all users in the organization can always consume protected content that has been protected by your subset of users, but they won’t be able to apply information protection themselves from client applications. For example, they won’t see in their Office clients the default templates that are automatically published when Azure RMS is activated, or custom templates that you might configure. Server-side applications, such as Exchange, can implement their own per-user controls for RMS-integration to achieve the same result.
 
 ## Next steps
 Now that you’ve activated [!INCLUDE[aad_rightsmanagement_1](../Token/aad_rightsmanagement_1_md.md)] for your organization, use the [Azure Rights Management Deployment Roadmap](../Topic/Azure-Rights-Management-Deployment-Roadmap.md) to check whether there are other configuration steps that you might need to do before you roll out [!INCLUDE[aad_rightsmanagement_1](../Token/aad_rightsmanagement_1_md.md)] to users and administrators. For example, you might want to use [custom templates](http://technet.microsoft.com/library/dn642472.aspx) to make it easier for users to apply information protection to files, connect your on-premises servers to use [!INCLUDE[aad_rightsmanagement_1](../Token/aad_rightsmanagement_1_md.md)] by installing the [RMS connector](http://technet.microsoft.com/library/dn375964.aspx), and deploy the [Rights Management sharing application](http://technet.microsoft.com/library/jj585031.aspx) that supports protecting all file types on all devices. Office services,  such as Exchange Online and SharePoint Online require additional configuration before you can use their Information Rights Management (IRM) features. However, if there are no other configuration steps that you need to do, see [Using Azure Rights Management](../Topic/Using-Azure-Rights-Management.md) for operational guidance to support a successful deployment for your organization.
